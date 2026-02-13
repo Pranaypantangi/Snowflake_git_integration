@@ -10,4 +10,4 @@ $$;
 
 -- Call the procedure
 
-CALL add_numbers(25, 77);
+CALL add_numbers(25, 97);
