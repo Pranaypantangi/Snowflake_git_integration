@@ -3,8 +3,11 @@ RETURNS NUMBER
 LANGUAGE SQL
 AS
 $$
-    SELECT a + b;
+    Begin
+    return a + b;
+    end
 $$;
 
 -- Call the procedure
+
 CALL add_numbers(5, 7);
